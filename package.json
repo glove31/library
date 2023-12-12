@@ -4,8 +4,8 @@
   "description": "Library application",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node dist/index.js",
-    "dev": "concurrently -n \"TS, Node\" \"npx tsc --watch\" \"nodemon dist/index.js\""
+    "start": "npx tsc && node dist/server.js",
+    "dev": "concurrently -n \"TS, Node\" \"npx tsc --watch\" \"nodemon dist/server.js\""
   },
   "keywords": [],
   "author": "Danielle",
